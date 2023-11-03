@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    width: 100%;
+
+}
+h1{
+    font-size: 4rem;
+}
+h1,h2{
+    margin-bottom: 4rem;
+}
+#oyun-alani{
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+.kutular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    transition: 0.5s;
+}
+.kutular:hover{
+    border: 7px solid;
+    background-color: rgb(181, 226, 226);
+}
+#sifirla{
+    margin-top: 3rem;
+    background-color: aliceblue;
+    border:2px solid black;
+    width: 20%;
+    height: 7%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    
+    transition: 0.5s;
+}
+#sifirla:hover{
+    background-color: rgb(181, 226, 226);
+    border: 5px solid black;
+    font-size: 180%;
+   
+}
+.typeInput{
+    margin-top: 1%;
+    position: relative;
+    border:1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    height: 2rem;
+    width: 16rem;
+}
+.playerNameInput{
+    margin-top: 2%;
+    text-align: center;
+
+
+
+}
+#start{
+    margin-top: 3rem;
+    background-color: aliceblue;
+    border:2px solid black;
+    width: 10%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    transition: 1s;
+
+}
+#start:hover{
+    background-color: rgb(181, 226, 226);
+    border: 5px solid black;
+    font-size: 130%;
+   
+}
